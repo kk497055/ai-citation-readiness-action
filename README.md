@@ -2,6 +2,8 @@
 
 A zero-configuration GitHub Action that scans a built static website and reports five clarity, evidence, structure, and crawlability signals in the workflow summary.
 
+[Run the visual browser audit on Klyrone](https://klyrone.com/tools/ai-citation-readiness)
+
 ## Usage
 
 ```yaml
@@ -32,6 +34,7 @@ The result is directional and cannot guarantee indexing, ranking, or AI citation
 
 ## Complete 25-point audit
 
+- [Compare consultation and self-serve options](https://klyrone.com/tools/ai-citation-readiness)
 - [Get the private offline toolkit for $9](https://payhip.com/b/Kez3L)
 - [Alternative checkout on itch.io](https://kk497055.itch.io/ai-citation-readiness-scorecard)
 
