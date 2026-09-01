@@ -9,6 +9,9 @@ inputs:
     description: Directory containing the built static website
     required: false
     default: .
+outputs:
+  score:
+    description: Directional citation-readiness score from 0 to 100
 runs:
   using: node20
   main: index.js

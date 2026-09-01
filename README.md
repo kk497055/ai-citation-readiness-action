@@ -22,6 +22,8 @@ jobs:
 
 For frameworks, run the build first and point `path` to the output directory such as `dist`, `build`, or `out`.
 
+The action exposes a `score` output from `0` to `100`, so teams can record the result or apply their own policy without the action unexpectedly blocking a deployment.
+
 The action checks for:
 
 - A descriptive homepage title and H1

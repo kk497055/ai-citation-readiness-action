@@ -39,7 +39,7 @@ const checks = [
 const passed = checks.filter(([ok]) => ok).length;
 const score = passed * 20;
 const rows = checks.map(([ok, label, fix]) => `| ${ok ? "✅" : "❌"} | ${label} | ${ok ? "Verified" : fix} |`).join("\n");
-const report = `# AI Citation Readiness Mini Check\n\n**Score: ${score}/100**\n\n| | Signal | Result |\n|---|---|---|\n${rows}\n\nThis automated check is directional and cannot guarantee ranking or citation.\n\n[Run the complete private 25-point audit →](https://payhip.com/b/Kez3L)\n`;
+const report = `# AI Citation Readiness Mini Check\n\n**Score: ${score}/100**\n\n| | Signal | Result |\n|---|---|---|\n${rows}\n\nThis automated check is directional and cannot guarantee ranking or citation.\n\n[Run the visual audit or compare expert and self-serve options →](https://klyrone.com/tools/ai-citation-readiness?utm_source=github_action&utm_medium=workflow&utm_campaign=ai_citation_readiness)\n`;
 
 console.log(report);
 if (process.env.GITHUB_STEP_SUMMARY) fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, report);
