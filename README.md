@@ -14,7 +14,7 @@ jobs:
   audit:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: kk497055/ai-citation-readiness-action@v1
         with:
           path: .
@@ -38,7 +38,10 @@ The result is directional and cannot guarantee indexing, ranking, or AI citation
 
 - [Compare consultation and self-serve options](https://klyrone.com/tools/ai-citation-readiness)
 - [Get the private offline toolkit for $9](https://payhip.com/b/Kez3L)
+- [Buy on Gumroad for $9](https://kamranix65.gumroad.com/l/ai-citation-readiness-toolkit)
 - [Alternative checkout on itch.io](https://kk497055.itch.io/ai-citation-readiness-scorecard)
+
+Prefer a guided book format? The companion workbook is available as a [Kindle edition](https://www.amazon.com/dp/B0HHCY6MGD) and [paperback](https://www.amazon.com/dp/B0HHD5CG1P).
 
 ## License
 
