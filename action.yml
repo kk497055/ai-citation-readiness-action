@@ -1,0 +1,14 @@
+name: AI Citation Readiness Check
+description: Score five website clarity, evidence, and crawlability signals in a static site repository.
+author: Klyrone Labs
+branding:
+  icon: check-circle
+  color: green
+inputs:
+  path:
+    description: Directory containing the built static website
+    required: false
+    default: .
+runs:
+  using: node20
+  main: index.js
