@@ -2,6 +2,8 @@
 
 A zero-configuration GitHub Action that scans a built static website and reports five clarity, evidence, structure, and crawlability signals in the workflow summary.
 
+[Install from GitHub Marketplace](https://github.com/marketplace/actions/ai-citation-readiness-check)
+
 [Run the visual browser audit on Klyrone](https://klyrone.com/tools/ai-citation-readiness)
 
 ## Usage
